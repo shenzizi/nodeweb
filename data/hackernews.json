@@ -1,0 +1,364 @@
+{
+  "data": [
+    {
+      "title": "Apache Traffic Server",
+      "link": "https://trafficserver.apache.org/"
+    },
+    {
+      "title": "Chrome Cleanup Tool",
+      "link": "https://www.google.com/chrome/cleanup-tool"
+    },
+    {
+      "title": "WSJ journalist John Carreyrou shares year-long Theranos investigation [video]",
+      "link": "https://www.youtube.com/watch?v=zSgwJA-GOlg"
+    },
+    {
+      "title": "Kickstarter for funding Micropython port to ESP8266",
+      "link": "https://www.kickstarter.com/projects/214379695/micropython-on-the-esp8266-beautifully-easy-iot?ref=discovery"
+    },
+    {
+      "title": "Goodbye, Parse.com – Migrating from Parse to Flask",
+      "link": "http://yanirseroussi.com/2015/07/31/goodbye-parse-com/"
+    },
+    {
+      "title": "TBOX: A Multi-Platform C Library",
+      "link": "https://github.com/waruqi/tbox.git"
+    },
+    {
+      "title": "Daphne Oram: Portrait of an electronic music pioneer (2008)",
+      "link": "http://www.theguardian.com/music/2008/aug/01/daphne.oram.remembered"
+    },
+    {
+      "title": "NSA's Hacker-In-Chief: We Don't Need Zero-Days to Get Inside Your Network",
+      "link": "http://motherboard.vice.com/read/nsas-hacker-in-chief-we-dont-need-zero-days-to-get-inside-your-network-rob-boyce"
+    },
+    {
+      "title": "The dark, disturbing world of the visa-for-sale program",
+      "link": "http://fortune.com/2014/07/24/immigration-eb-5-visa-for-sale/"
+    },
+    {
+      "title": "White House denies clearance to tech researcher with links to Snowden",
+      "link": "http://www.theguardian.com/technology/2016/jan/29/white-house-tech-researcher-denied-security-clearance-edward-snowden-nsa"
+    },
+    {
+      "title": "When Edison, Ford and Friends Went Road-Tripping in Model Ts",
+      "link": "http://www.smithsonianmag.com/history/when-americas-titans-industry-and-innovation-went-road-tripping-together-180957924/?no-ist"
+    },
+    {
+      "title": "XKCD On EM Drive – Quantum Vacuum Virtual Plasma",
+      "link": "https://xkcd.com/1404/"
+    },
+    {
+      "title": "React and the economics of dynamic web interfaces",
+      "link": "https://www.nczonline.net/blog/2016/01/react-and-the-economics-of-dynamic-web-interfaces/"
+    },
+    {
+      "title": "IBM is applying to move Express to the Node.js Foundation",
+      "link": "https://github.com/nodejs/TSC/pull/39"
+    },
+    {
+      "title": "Disabling npm's progress bar yields a 2x npm install speed improvement",
+      "link": "https://twitter.com/gavinjoyce/status/691773956144119808"
+    },
+    {
+      "title": "The Man Who Would Tame Cancer",
+      "link": "http://nautil.us/issue/32/space/the-man-who-would-tame-cancer"
+    },
+    {
+      "title": "Why scientific studies can't be reproduced",
+      "link": "http://qz.com/603356/why-scientific-studies-cant-be-reproduced/"
+    },
+    {
+      "title": "Los Angeles County's use of predictive analytics on at-risk children",
+      "link": "http://www.psmag.com/politics-and-law/minority-report"
+    },
+    {
+      "title": "Aereo Founder Is Back with New High-Speed Wireless Service",
+      "link": "http://www.wsj.com/articles/aereo-founder-is-back-with-new-high-speed-wireless-service-1453934995"
+    },
+    {
+      "title": "Transactional Memory Support for C [pdf]",
+      "link": "http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1961.pdf"
+    },
+    {
+      "title": "To Prevent Back Pain, Orthotics Are Out, Exercise Is In",
+      "link": "http://well.blogs.nytimes.com/2016/01/27/to-prevent-back-pain-orthotics-are-out-exercise-is-in/"
+    },
+    {
+      "title": "US military finds F-35 software is a buggy mess",
+      "link": "http://www.theregister.co.uk/2015/01/22/us_military_finds_f35_software_is_a_buggy_mess/"
+    },
+    {
+      "title": "California Police Used Stingrays in Planes to Spy on Phones",
+      "link": "http://www.wired.com/2016/01/california-police-used-stingrays-in-planes-to-spy-on-phones/"
+    },
+    {
+      "title": "What a PhD Really Means in the US National Security Community",
+      "link": "https://news.vice.com/article/doctors-of-doom-what-a-phd-really-means-in-the-us-national-security-community-1"
+    },
+    {
+      "title": "Facebook Climbs to 1.59B Users, Beats Q4 Estimates with $5.8B Revenue",
+      "link": "http://techcrunch.com/2016/01/27/facebook-earnings-q4-2015/#.kqfyhh:2YGM"
+    },
+    {
+      "title": "Why are submarines demagnetized?",
+      "link": "http://qi.epfl.ch/en/sondage/show/255/"
+    },
+    {
+      "title": "Marvin Minsky’s Marvelous Meat Machine",
+      "link": "https://medium.com/backchannel/marvin-minsky-s-marvelous-meat-machine-f436aec02fdf#.jxy9ralb6"
+    },
+    {
+      "title": "Pyjion – A JIT for Python based upon CoreCLR",
+      "link": "https://github.com/Microsoft/Pyjion"
+    },
+    {
+      "title": "Genetically modified mosquitoes used to fight dengue, zika in Brazil",
+      "link": "http://latino.foxnews.com/latino/health/2016/01/27/genetically-modified-mosquitoes-used-to-fight-dengue-zika-in-brazil/"
+    },
+    {
+      "title": "Visualizing Concurrency in Go",
+      "link": "https://divan.github.io/posts/go_concurrency_visualize/"
+    },
+    {
+      "title": "Goldman Sachs and the $580M Black Hole (2012)",
+      "link": "http://www.nytimes.com/2012/07/15/business/goldman-sachs-and-a-sale-gone-horribly-awry.html?_r=1"
+    },
+    {
+      "title": "How I fixed a bug in Atom",
+      "link": "http://davidvgalbraith.com/how-i-fixed-atom/"
+    },
+    {
+      "title": "Why Shitty Products Survive and Thrive",
+      "link": "http://deap.co/2016/01/29/how-bad-products-survive/"
+    },
+    {
+      "title": "Rails 5 Drops EventMachine Dependency",
+      "link": "https://github.com/rails/rails/pull/23305"
+    },
+    {
+      "title": "Request For Research: Basic Income",
+      "link": "https://blog.ycombinator.com/basic-income"
+    },
+    {
+      "title": "The Best Teacher I Never Had",
+      "link": "https://www.gatesnotes.com/Education/The-Best-Teacher-I-Never-Had"
+    },
+    {
+      "title": "Eve:  My Concerns",
+      "link": "http://robmoff.at/2016/01/13/all-about-eve/"
+    },
+    {
+      "title": "Fertilizer trees can triple yields",
+      "link": "http://dapa.ciat.cgiar.org/fertilizer-trees-can-triple-yields/"
+    },
+    {
+      "title": "Systemd mounted efivarfs read-write, allowing motherboard bricking via 'rm'",
+      "link": "https://github.com/systemd/systemd/issues/2402"
+    },
+    {
+      "title": "The myth of the ISIS encrypted messaging app",
+      "link": "http://www.dailydot.com/politics/isis-alrawi-encryption-messaging-app/"
+    },
+    {
+      "title": "Unix History Repository",
+      "link": "https://github.com/dspinellis/unix-history-repo"
+    },
+    {
+      "title": "Update on 1/28 service outage",
+      "link": "https://github.com/blog/2101-update-on-1-28-service-outage"
+    },
+    {
+      "title": "Google achieves AI 'breakthrough' by beating Go champion",
+      "link": "http://www.bbc.co.uk/news/technology-35420579"
+    },
+    {
+      "title": "Project Skybender: Google's secretive 5G internet drone tests revealed",
+      "link": "http://www.theguardian.com/technology/2016/jan/29/project-skybender-google-drone-tests-internet-spaceport-virgin-galactic"
+    },
+    {
+      "title": "Computer Museum bids farewell to Babbage engine",
+      "link": "http://www.mv-voice.com/print/story/2016/01/29/computer-museum-bids-farewell-to-babbage-engine"
+    },
+    {
+      "title": "Nuitka Progress in 2015 – Python Compiler",
+      "link": "http://nuitka.net/posts/nuitka-progress-winter-2015.html"
+    },
+    {
+      "title": "Building Firefox with Clang-Cl: A Status Update",
+      "link": "https://ehsanakhgari.org/blog/2016-01-29/building-firefox-with-clang-cl-a-status-update"
+    },
+    {
+      "title": "Show HN: Git-vendor, manage dependencies with git-subtree",
+      "link": "https://github.com/brettlangdon/git-vendor"
+    },
+    {
+      "title": "Sit/Stand Desk: IKEA Skarsta Review",
+      "link": "http://blog.c-mart.in/posts/sit-stand-desk-ikea-skarsta-review"
+    },
+    {
+      "title": "Newegg sues patent troll that dropped its case",
+      "link": "http://arstechnica.com/tech-policy/2016/01/newegg-sues-patent-troll-that-dropped-its-case/"
+    },
+    {
+      "title": "Pikazo",
+      "link": "http://www.pikazoapp.com/"
+    },
+    {
+      "title": "Tails 2.0 is out",
+      "link": "https://tails.boum.org/news/version_2.0/index.en.html"
+    },
+    {
+      "title": "NayuOS – Chromebooks without Google",
+      "link": "http://www.nexedi.com/blog/NXD-Document.Blog.Nayu.Os.Introduction"
+    },
+    {
+      "title": "Tale of Tasteless Tomatoes: Why Vegetables Do Not Taste Good Anymore",
+      "link": "http://calmscience.net/2015/12/11/tale-of-tasteless-tomatoes-why-vegetables-do-not-taste-good-anymore/"
+    },
+    {
+      "title": "Jonathan Blow's new game, The Witness, is out",
+      "link": "http://store.steampowered.com/app/210970/"
+    },
+    {
+      "title": "Researchers use CRISPR to repair genetic defect that causes blindness",
+      "link": "http://www.dispatchtribunal.com/researchers-use-crispr-to-repair-genetic-defect-that-causes-blindness/12510/"
+    },
+    {
+      "title": "Medium's Sitewide Encryption Confronts Censorship in Malaysia",
+      "link": "https://www.eff.org/deeplinks/2016/01/mediums-sitewide-encryption-confronts-censorship-malaysia"
+    },
+    {
+      "title": "In Retrospect: The Selfish Gene",
+      "link": "http://www.nature.com/nature/journal/v529/n7587/full/529462a.html"
+    },
+    {
+      "title": "Announcing TypeScript 1.8 Beta",
+      "link": "http://blogs.msdn.com/b/typescript/archive/2016/01/28/announcing-typescript-1-8-beta.aspx"
+    },
+    {
+      "title": "Theranos Is Running Out of Time",
+      "link": "http://www.bloomberg.com/news/articles/2016-01-29/time-is-running-out-for-theranos"
+    },
+    {
+      "title": "OpenSSH and the dangers of unused code",
+      "link": "https://lwn.net/Articles/672465/"
+    },
+    {
+      "title": "Writing an Async Logger in Nim",
+      "link": "http://hookrace.net/blog/writing-an-async-logger-in-nim/"
+    },
+    {
+      "title": "TSDL: Time Series Data Library",
+      "link": "https://datamarket.com/data/list/?q=provider:tsdl"
+    },
+    {
+      "title": "SpaceX successfully tests parachute for bringing astronauts back [video]",
+      "link": "https://www.washingtonpost.com/video/business/technology/spacex-successfully-tests-parachute-for-bringing-astronauts-back-to-earth/2016/01/28/5f5e3d52-c5d3-11e5-b933-31c93021392a_video.html"
+    },
+    {
+      "title": "StreamComputing launches GEGL-OpenCL project, contest",
+      "link": "http://www.gimp.org/news/2016/01/28/gegl-opencl-streamcomputing/"
+    },
+    {
+      "title": "RabbitMQ Internals",
+      "link": "https://github.com/rabbitmq/internals/"
+    },
+    {
+      "title": "How to Discover a Galaxy with a Telephoto Lens",
+      "link": "http://nautil.us/issue/32/space/how-to-discover-a-galaxy-with-a-telephoto-lens"
+    },
+    {
+      "title": "Preact, a fast 3k React alternative",
+      "link": "http://developit.github.io/preact/"
+    },
+    {
+      "title": "Unity Comes to New Nintendo 3DS",
+      "link": "http://blogs.unity3d.com/2016/01/29/unity-comes-to-new-nintendo-3ds/"
+    },
+    {
+      "title": "Proposal to require clinical trials data to be shared for publication",
+      "link": "http://www.statnews.com/pharmalot/2016/01/27/proposal-data-sharing-remarkable-turning-point-says-yales-krumholz/"
+    },
+    {
+      "title": "Annoyances of API Design",
+      "link": "http://chickenwing.software/scratches/programming/annoying-apis"
+    },
+    {
+      "title": "Scientists open the ‘black box’ of schizophrenia with dramatic genetic discovery",
+      "link": "https://www.washingtonpost.com/news/speaking-of-science/wp/2016/01/27/scientists-open-the-black-box-of-schizophrenia-with-dramatic-genetic-finding/?postshare=3091453948817165&tid=ss_tw-bottom"
+    },
+    {
+      "title": "Chicago Police Hid Mics, Destroyed Dashcams to Block Audio, Records Show",
+      "link": "https://www.dnainfo.com/chicago/20160127/archer-heights/whats-behind-no-sound-syndrome-on-chicago-police-dashcams"
+    },
+    {
+      "title": "T-Mobile’s Binge on Violates Key Net Neutrality Principles [pdf]",
+      "link": "https://cyberlaw.stanford.edu/downloads/vanSchewick-2016-Binge-On-Report.pdf"
+    },
+    {
+      "title": "Migrating from Parse.com to deepstream.io",
+      "link": "http://deepstream.io/blog/migrating-parse-com-to-deepstream-io/"
+    },
+    {
+      "title": "State of Clojure 2015: Survey Results",
+      "link": "http://blog.cognitect.com/blog/2016/1/28/state-of-clojure-2015-survey-resultsv"
+    },
+    {
+      "title": "Laid-off IT workers muzzled as H-1B debate heats up",
+      "link": "http://www.computerworld.com/article/3027640/it-outsourcing/laid-off-it-workers-muzzled-as-h-1b-debate-heats-up.html"
+    },
+    {
+      "title": "Marvin Minsky dies at 88",
+      "link": "http://nytimes.com/2016/01/26/business/marvin-minsky-pioneer-in-artificial-intelligence-dies-at-88.html"
+    },
+    {
+      "title": "How does a segmentation fault work under the hood?",
+      "link": "http://unix.stackexchange.com/questions/257598/how-does-a-segmentation-fault-work-under-the-hood"
+    },
+    {
+      "title": "Voxel.css",
+      "link": "http://voxelcss.com/"
+    },
+    {
+      "title": "Hillary Clinton emails declared 'top secret' by State Dept",
+      "link": "http://www.politico.com/story/2016/01/22-hillary-clinton-emails-declared-top-secret-218420"
+    },
+    {
+      "title": "A lightweight C++ signals and slots implementation",
+      "link": "https://github.com/pbhogan/Signals"
+    },
+    {
+      "title": "Replace a running Debian installation by Arch remotely over ssh",
+      "link": "https://gist.github.com/m-ou-se/863ad01a0928e184b2b8"
+    },
+    {
+      "title": "Google Will Soon Shame All Websites That Are Unencrypted",
+      "link": "http://motherboard.vice.com/read/google-will-soon-shame-all-websites-that-are-unencrypted-chrome-https"
+    },
+    {
+      "title": "Free Trade with China Wasn't Such a Great Idea for the U.S",
+      "link": "http://www.bloombergview.com/articles/2016-01-26/free-trade-with-china-wasn-t-such-a-great-idea"
+    },
+    {
+      "title": "White House denies clearance to tech researcher with links to Snowden",
+      "link": "http://www.theguardian.com/technology/2016/jan/29/white-house-tech-researcher-denied-security-clearance-edward-snowden-nsa?CMP=share_btn_tw"
+    },
+    {
+      "title": "SourceForge and Slashdot Have Been Sold",
+      "link": "http://fossforce.com/2016/01/sourceforge-and-slashdot-have-been-sold/"
+    },
+    {
+      "title": "The End of Twitter?",
+      "link": "http://www.newyorker.com/tech/elements/the-end-of-twitter"
+    },
+    {
+      "title": "Google's solar plane crashed due to wing failure",
+      "link": "http://www.engadget.com/2016/01/29/google-solar-plane-crash-wing-failure/"
+    },
+    {
+      "title": "Windows Phone is dead",
+      "link": "http://www.theverge.com/2016/1/28/10864034/windows-phone-is-dead"
+    }
+  ]
+}
