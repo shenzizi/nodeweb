@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <style>
+    #circles{
+    	position: absolute;
+    	left:50px;
+    }
+    </style>
+ </head>
+ <body>
+ 	<div class="blank">
+ 	 <button type="button" class="btn btn-primary" id="top10">TOP10</button>
+      <button type="button" class="btn btn-primary" id="top15">TOP15</button>
+      <button type="button" class="btn btn-primary" id="top20">TOP20</button>
+      <button type="button" class="btn btn-primary" id="top28">TOP28</button>
+      <button type="button" class="btn btn-primary" id="rannum">random</button>
+    </div>
+   <canvas id="circles" style="border:1px solid orange" width="300px" height="300px"></canvas>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+ <script>
+   /*var context=canvas.getContext("2d");
+   ctx.beginPath();
+   ctx.arc(x-position, y-position, radius, start-angle, end-angle);
+   ctx.arc(mouseX, mouseY, 30, 0, 2*Math.PI);
+   ctx.stroke();*/
+   var c=document.getElementById("circles");
+   var ctx=c.getContext("2d");
+   ctx.beginPath();
+   ctx.arc(100,75,50,0,2*Math.PI);
+   ctx.fillStyle = 'green';
+   ctx.fill();
+   ctx.beginPath();
+   ctx.arc(200,200,30,0,2*Math.PI);
+   ctx.fillStyle = 'red';
+   ctx.fill();
+   //ctx.fillRect(200,200,50,50);
+   $('#circles').click(function (e) {
+      var clickedX = e.pageX - this.offsetLeft;
+      var clickedY = e.pageY - this.offsetTop;
+      var circlesxyr=[{x:100,y:75,r:50,name:"a"},{x:200,y:200,r:30,name:"b"}]
+      console.log(clickedX,clickedY)
+      for (var i = 0; i < circlesxyr.length; i++) {
+          	var x =  clickedX -circlesxyr[i].x;
+            var y =  clickedY -circlesxyr[i].y;
+            var dist = Math.sqrt(y*y + x*x);
+        if (dist<circlesxyr[i].r) {
+         alert(circlesxyr[i].name)
+        }
+      }
+  });
+   /*Math.sqrt((x1-x0)*(x1-x0) + (y1-y0)*(y1-y0)) < r*/
+  
+  </script>
+ </body>
+ </html>
