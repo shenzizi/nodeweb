@@ -2,106 +2,80 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0" >
 	<title>Data Visual</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-  <link rel="stylesheet/less" type="text/css" href="style.less">
-	<style>
-	.node {
-    fill: green;
-    stroke:black;
-    stroke-width: 1px;
-    opacity: .8;
-    }
-  .link {
-    stroke: #777;
-    stroke-width: 2px;
-   }
+
+   <!--<link rel='stylesheet' type="text/css" href='style.css' />-->
+  <!--<link rel="stylesheet/less" type="text/css" href="style.less">-->
+  <style>
   #bg{
-    	position: absolute;
-    	z-index: -1;
+      position: absolute;
+      z-index: 1;
     }
   #logo{
       position: absolute;
       z-index: 2;
     }
-  .pagepart{
-    position: absolute;
-    height:650px;
-    width:100%;
-    z-index: -1;
-  }
   #part1{
     background-color: darkcyan;
-    top:1400px;
-  }
-  #part1::after{
-    content:"";
-    position:absolute;
-    left:50%;
-    top:-1%;
-    background: white;
-    width: 100px;
-    height: 50px;
-      -moz-border-radius:0 0 100px 100px ; 
-      -webkit-border-radius: 0 0 100px 100px; 
-    border-radius: 0 0 100px 100px;
-    margin: 0 auto;
+    border:black;
   }
   #part2{
     background-color: maroon;
-    top:1350px;
+    border:black;
   }
   #part3{
-    background-color:darkseagreen; 
-    top:2000px;
+    background-color: blue;
+    border:black;
   }
-  .part_chart{
+  .pagepart{
     position: absolute;
-    z-index: 2;
-    border:10px solid green;
-    width:35%;
-    height:80%;
-    top:10%;
+    width:100%;
+    padding-bottom: 66.66%;
   }
- .part_text{
-    position: absolute;
-    z-index: 3;
-    background-color: white;
-    border:10px solid white;
-    width:18%;
-    height:55%;
-    top:22%;
-  }
-  .animation-element.slide-left {
-  opacity: 0;
-  -moz-transition: all 500ms linear;
-  -webkit-transition: all 500ms linear;
-  -o-transition: all 500ms linear;
-  transition: all 500ms linear;
-  -moz-transform: translate3d(-100px, 0px, 0px);
-  -webkit-transform: translate3d(-100px, 0px, 0px);
-  -o-transform: translate(-100px, 0px);
-  -ms-transform: translate(-100px, 0px);
-  transform: translate3d(-100px, 0px, 0px);
-  }
-  .animation-element.slide-left.in-view {
-  opacity: 1;
-  -moz-transform: translate3d(0px, 0px, 0px);
-  -webkit-transform: translate3d(0px, 0px, 0px);
-  -o-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  transform: translate3d(0px, 0px, 0px);
+  .wrapper {
+  position: relative;
+  width: 100%; /* <-- just a default, can be anything. */
 }
 
-	</style>
+.three-by-two.aspect-ratio { padding-bottom: 66.666% }
+.four-by-three.aspect-ratio { padding-bottom: 75% }
+.sixteen-by-nine.aspect-ratio { padding-bottom: 56.25% }
+
+.content {
+    position: absolute;
+    top: 0;  bottom: 0;  left: 0;  right: 0;
+  padding: 0 24px; /* Optional padding for content area */
+}
+
+.main-box {
+    width: 100%;
+    /*margin: 5% auto;*/
+    margin-top: 5%;
+}
+
+/* Styles for the content in the main box */
+.main-box > .content {
+    background: #ffe5e5;
+}
+  </style>
 </head>
 <body>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.3.0/less-1.3.0.min.js " type="text/javascript"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.14/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<img id="bg" src="r3.jpg" />
-	<div id='logo'></div>
+
+  <!--<div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">-->
+	      <img id="bg" src="r3_lg.jpg" />
+	      <div id='logo'></div>
+      <!--</div>
+    </div>
+  </div>-->
   <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -116,18 +90,38 @@
   </div>
 </nav>
 
+
+  
+  <!--<div class="wrapper main-box">
+    <div class="four-by-three aspect-ratio"></div>
+    <div class="content">
+      <h1>Howdy!</h1>
+      <p>This box has a 4:3 aspect ratio. Its width is 80% of the page width. Its height is three quarters of its width.</p>
+    </div>
+  </div>
+  <div class="wrapper main-box">
+    <div class="four-by-three aspect-ratio"></div>
+    <div class="content">
+      <canvas id='canvas' width="1140" height="600" style="border:1px solid white"></canvas>
+    </div>
+  </div>-->
+ 
+
  <section id="hotword">
   <div class='container-fluid pagepart' id="part1">part1_hotword
     <div class="row">
-       <div class='col-sm-offset-4 col-md-offset-4 part_text animation-element slide-left' id="hotword_text">text</div>
-       <div class='col-sm-offset-5 col-md-offset-5 part_chart animation-element slide-left' id="hotword_chart">chart</div>
+      <!--<div class="col-lg-12" id="venn" style="font-size: 24px !important;line-height: 20px;overflow: hidden;">-->
+      <button type="button" class="btn btn-primary" id="top10">TOP10</button>
+      <button type="button" class="btn btn-primary" id="top15">TOP15</button>
+      <button type="button" class="btn btn-primary" id="top20">TOP20</button>
+      <button type="button" class="btn btn-primary" id="top28">TOP28</button>
+      <canvas id='canvas' width="1140" height="600" style="border:1px solid white"></canvas>
     </div>
   </div>
  </section>
-
-
  <section id="viewing">
   <div class='container-fluid pagepart' id="part2">part2_viewing
+    <div class="row">
       <div class='col-sm-offset-2 col-md-offset-2 part_text animation-element slide-left' id="viewing_text">text</div>
       <div class='col-sm-offset-3 col-md-offset-3 part_chart animation-element slide-left' id="viewing_chart">chart</div>
     </div>
@@ -136,11 +130,14 @@
 
  <section id="funtable">
   <div class='container-fluid pagepart' id="part3">part3_table
+    <div class="row">
       <div class='col-sm-offset-6 col-md-offset-6 part_text animation-element slide-left' id="viewing_text">text</div>
       <div class='col-sm-offset-7 col-md-offset-7 part_chart animation-element slide-left' id="viewing_chart">chart</div>
     </div>
   </div>
 </section>
+ <script src="response.js"></script>
+  <script src="canvas.js"></script>
   <script>
   /* function layoutHandler(){
 	var styleLink = document.getElementById("pagestyle");
@@ -166,8 +163,11 @@
    	}
    	$('#bg').css('width',bgwidth);
    	$('#bg').css('height',bgheight);
-    $('#part1').css('height',bgheight);
-    $('#part1').css('top','1400px')
+    $('#part1').css('margin-top',bgheight+50)
+    $('#part2').css('margin-top',bgheight*2+150)
+    $('#part3').css('margin-top',bgheight*3)
+    //$('#part1').css('height',bgheight);
+    //$('#part1').css('top','1400px')
    }
    function logo(){
    	var width=350,height=350;

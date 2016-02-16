@@ -1,0 +1,119 @@
+.node {
+    fill: green;
+    stroke:black;
+    stroke-width: 1px;
+    opacity: .8;
+    }
+  .link {
+    stroke: #777;
+    stroke-width: 2px;
+   }
+  #bg{
+    	position: absolute;
+    	z-index: -1;
+    }
+  #logo{
+      position: absolute;
+      z-index: 2;
+    }
+  .pagepart{
+    position: absolute;
+    height:650px;
+    width:100%;
+    z-index: -1;
+  }
+  #part1{
+    background-color: darkcyan;
+  }
+  /*#part1::after{
+    content:"";
+    position:absolute;
+    left:50%;
+    top:-1%;
+    background: white;
+    width: 100px;
+    height: 50px;
+      -moz-border-radius:0 0 100px 100px ; 
+      -webkit-border-radius: 0 0 100px 100px; 
+    border-radius: 0 0 100px 100px;
+    margin: 0 auto;
+  }*/
+  #part2{
+    background-color: maroon;
+  }
+  #part3{
+    background-color:darkseagreen; 
+  }
+  .part_chart{
+    position: absolute;
+    z-index: 2;
+    border:10px solid green;
+    width:85%;
+    height:80%;
+    top:10%;
+  }
+ .part_text{
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    border:10px solid white;
+    width:40%;
+    height:55%;
+    top:22%;
+  }
+  .animation-element.slide-left {
+  opacity: 0;
+  -moz-transition: all 500ms linear;
+  -webkit-transition: all 500ms linear;
+  -o-transition: all 500ms linear;
+  transition: all 500ms linear;
+  -moz-transform: translate3d(-100px, 0px, 0px);
+  -webkit-transform: translate3d(-100px, 0px, 0px);
+  -o-transform: translate(-100px, 0px);
+  -ms-transform: translate(-100px, 0px);
+  transform: translate3d(-100px, 0px, 0px);
+  }
+  .animation-element.slide-left.in-view {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: lightgreen;
+    }
+    .pagepart{
+    position: absolute;
+    width:100%;
+    padding-bottom: 66.66%;
+    z-index: -1;
+  }
+    .part_chart{
+    position: absolute;
+    z-index: 2;
+    border:10px solid green;
+    width:800px;
+    height:400px;
+    top:10%;
+   }
+  .part_text{
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    border:10px solid white;
+    width:200px;
+    height:200px;
+    top:22%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: black;
+    }
+}
+
